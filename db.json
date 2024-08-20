@@ -1,0 +1,19 @@
+{
+  "superheroes": [
+    {
+      "id": 1,
+      "name": "Captain Thunder",
+      "move": "Thunder Strike"
+    },
+    {
+      "id": 2,
+      "name": "Shadow Blade",
+      "move": "Dark Slash"
+    },
+    {
+      "id": 3,
+      "name": "Blaze Guardian",
+      "move": "Flame Burst"
+    }
+  ]
+}
