@@ -9,6 +9,7 @@ import {ReactQueryDevtools} from 'react-query/devtools'
 import SuperHeroesPage from "./components/SuperHeroes.page";
 import RQSuperHeroesPage from "./components/RQSuperHeroes.page";
 import HomePage from "./components/HomePage";
+import RQSuperHero from "./components/RQSuperHero.page";
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
         </nav>
 
         <Routes>
+          <Route path="/rq-superhero/:heroId" element={<RQSuperHero />} />
           <Route path="/superhero" element={<SuperHeroesPage />} />
           <Route path="/rqSuperhero" element={<RQSuperHeroesPage />} />
           <Route path="/" element={<HomePage />} />

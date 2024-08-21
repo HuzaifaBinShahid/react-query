@@ -1,6 +1,5 @@
 {
-
-    "superheroes":[
+  "superheroes": [
     {
       "id": 1,
       "name": "Captain Thunder",
@@ -16,6 +15,19 @@
       "name": "Blaze Guardian",
       "move": "Flame Burst"
     }
-    ]
+  ],
+  "friends": [
+    {
+      "id": 1,
+      "name": "Chandler Bing"
+    },
+    {
+      "id": 2,
+      "name": "Joey Tribbiani"
+    },
+    {
+      "id": 3,
+      "name": "Rachel Green"
+    }
+  ]
 }
-  
